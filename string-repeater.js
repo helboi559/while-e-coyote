@@ -4,7 +4,7 @@
 //intialize prompt sync
 const prompt = require("prompt-sync")({sigint:true});
 
-let question = prompt('enter a striong: ') ;
+let question = prompt('enter a string: ') ;
 let newWord = ""
 let lengthWords = 0
 //while str length < 10 
