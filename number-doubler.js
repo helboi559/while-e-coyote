@@ -4,25 +4,15 @@ const prompt = require('prompt-sync')({sigint:true});
 
 //num to double if necessary
 let num = Number(prompt('enter a number: '))
-//new num = 1
-// let doubled = Math.pow(num,2)
-//let newNum = 1
-//while num <= 100
-let currNum=0
+//optional to add variable of 100
 let cap = 100
 while (num <= cap) {
     //double num
+    num *= 2
     
-    cap = cap - num
-    // let doubled = Math.pow(num,2)
-    // num = doubled
-    currNum += Parsenum
-    // cap -= num
-    //console.log(newNum)
+    //log curr nums
     console.log(num)
-    // num = Number(prompt('enter another number: '))
     
 }
-console.log(num)
-//log new num
+
 

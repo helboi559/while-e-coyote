@@ -10,9 +10,11 @@ let lengthWords = 0
 //while str length < 10 
 while (lengthWords < 10) {
     // double string length
+    //console.log(question)
     newWord += question 
     lengthWords += question.length ;
     //ask question again
+    // console.log(question)
 }
 //log new word
 console.log(`${newWord}`)
