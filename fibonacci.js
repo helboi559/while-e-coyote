@@ -17,4 +17,5 @@ while (n > counter ) {
     currNum = nextNum
     nextNum = prevNum
     counter ++
+    
 }
